@@ -46,7 +46,6 @@ public class Main {
         System.out.println();
 
         System.out.println("===========================STRING BUILDER=========================");
-
         StringBuilder stringBuilder = new StringBuilder("Intellij IDE");
         System.out.println("To insert a string in a particular position : " +stringBuilder.insert(9,"Java "));
         System.out.println("To add a string with anther string :" + stringBuilder.append(" used"));
